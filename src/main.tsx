@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+
+import { ReactGPT } from './ReactGPT';
 import './index.css'
-import { RouterProvider } from 'react-router-dom'
-import { router } from './presentation/router/router'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={ router }/>
+    <ReactGPT />
   </React.StrictMode>,
 )
